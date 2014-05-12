@@ -54,7 +54,10 @@
 			<div id="menu-toggle">&#9660;</div>
 			<div class="social">
 				<a href="http://twitter.com/<?php if(get_option('twitter_username')){echo get_option('twitter_username');}?>">
-					<img alt="contact marinkd on twiter" src="<?php bloginfo('stylesheet_directory'); ?>/img/twitter.png" />
+					<img alt="On twitter" src="<?php bloginfo('stylesheet_directory'); ?>/img/twitter.png" />
+				</a>
+				<a href="http://github.com/altmcdermot">
+					<img alt="On Github" src="<?php bloginfo('stylesheet_directory'); ?>/img/github.png" />
 				</a>
 			</div>
 			
